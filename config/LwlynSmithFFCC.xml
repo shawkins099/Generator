@@ -27,10 +27,12 @@ SU3-F                         double   No                                     Co
 	 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 Axial form factors used for QEL CC cross section calculation.
 	 Options are:
+         - genie::ZExpAxialFFDirectCalculation, direct calculation of axial form factor using a0...a_kMax coefficients defined in ModelConfiguration
 	 - genie::DipoleAxialFormFactorModel
 	 - genie::ZExpAxialFormFactorModel, Bhattacharya, Paz, and Hill, Phys.Rev. D84 (2011) 073006 
 	 - genie::MArunAxialFormFactorModel, Kakorin,Kuzmin,Naumov, Eur.Phys.J.C 81 (2021) 1142
 	 <param type="alg" name="AxialFormFactorModel"> genie::ZExpAxialFormFactorModel/Default </param>
+       
     -->
   </param_set>
 
@@ -48,5 +50,11 @@ SU3-F                         double   No                                     Co
      <param type="alg" name="AxialFormFactorModel"> genie::MArunAxialFormFactorModel/Default </param>
 
   </param_set>
+
+  <param_set name="ZExpDirectCalculation">
+     <param type="alg" name="AxialFormFactorModel"> genie::ZExpAxialFFDirectCalculation/LQCDPark </param>
+ 
+  </param_set>
+
 </alg_conf>
 

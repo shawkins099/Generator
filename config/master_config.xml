@@ -138,6 +138,7 @@
    <config alg="genie::GalsterELFormFactorsModel">               GalsterELFormFactorsModel.xml               </config>
    <config alg="genie::DipoleAxialFormFactorModel">              DipoleAxialFormFactorModel.xml              </config>
    <config alg="genie::ZExpAxialFormFactorModel">                ZExpAxialFormFactorModel.xml                </config>
+   <config alg="genie::ZExpAxialFFDirectCalculation">            ZExpAxialFFDirectCalculation.xml            </config>
    <config alg="genie::ZExpELFormFactorModel">                      ZExpELFormFactorModel.xml                </config>
    <config alg="genie::MArunAxialFormFactorModel">               MArunAxialFormFactorModel.xml               </config>
    <config alg="genie::LwlynSmithFFCC">                          LwlynSmithFFCC.xml                          </config>

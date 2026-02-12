@@ -52,7 +52,7 @@ SU3-F                         double   No                                     Co
   </param_set>
 
   <param_set name="ZExpDirectCalculation">
-     <param type="alg" name="AxialFormFactorModel"> genie::ZExpAxialFFDirectCalculation/LQCDPark </param>
+     <param type="alg" name="AxialFormFactorModel"> genie::ZExpAxialFFDirectCalculation/Deuterium </param>
  
   </param_set>
 

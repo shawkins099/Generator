@@ -60,7 +60,11 @@ double ZExpAxialFFDirectCalculation::FA(const Interaction * interaction) const
   
   }
 
+  //std::cout << " Q2 = " << q2 << " , FA = " << fa << std::endl;
+
+
   return fa;
+
 }
 //___________________________________________________________________________
 double ZExpAxialFFDirectCalculation::CalculateFA0(void) const

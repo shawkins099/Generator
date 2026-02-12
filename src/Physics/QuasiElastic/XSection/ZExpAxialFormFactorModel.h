@@ -1,28 +1,27 @@
 //____________________________________________________________________________
 /*!
 
-\class    genie::ZExpAxialFormFactorModel
+ \class    genie::ZExpAxialFormFactorModel
 
-\brief    Concrete implementation of the AxialFormFactorModelI interface.
-          Computes the axial form factor using the model-independent
-          z-expansion technique
+ \brief    Concrete implementation of the AxialFormFactorModelI interface.
+           Computes the axial form factor using the model-independent
+           z-expansion technique
 
-\ref      Hill et al.
-          arXiv:1008.4619
-          DOI: 10.1103/PhysRevD.82.113005
+ \ref      Hill et al.
+           arXiv:1008.4619
+           DOI: 10.1103/PhysRevD.82.113005
 
-\author   Aaron Meyer <asmeyer2012 \at uchicago.edu>
+ \author   Aaron Meyer <asmeyer2012 \at uchicago.edu>
+           based off DipoleELFormFactorsModel by
+           Costas Andreopoulos <c.andreopoulos \at cern.ch>
+           University of Liverpool
+ 
+ \created  August 16, 2013
+ 
+ \cpright  Copyright (c) 2003-2025, The GENIE Collaboration
+           For the full text of the license visit http://copyright.genie-mc.org
+ */
 
-          based off DipoleELFormFactorsModel by
-          Costas Andreopoulos <c.andreopoulos \at cern.ch>
-          University of Liverpool
-
-\created  August 16, 2013
-
-\cpright  Copyright (c) 2003-2025, The GENIE Collaboration
-          For the full text of the license visit http://copyright.genie-mc.org
-
-*/
 //____________________________________________________________________________
 
 #ifndef _Z_EXPANSION_AXIAL_FORM_FACTOR_MODEL_H_

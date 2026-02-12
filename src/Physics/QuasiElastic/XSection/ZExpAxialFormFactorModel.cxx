@@ -81,6 +81,13 @@ void ZExpAxialFormFactorModel::FixCoeffs(void)
 
   if (fQ4limit) this->FixQ4Limit();
   else          this->FixA0();
+
+  for (int ki=0;ki<=fKmax+(fQ4limit ? 4 : 0);ki++){
+    std::cout << " fZ_An " << ki << " = " << fZ_An[ki] << std::endl;
+  }
+
+  std::cout << " fFA0 = " << fFA0 << std::endl;
+
 }
 //____________________________________________________________________________
 void ZExpAxialFormFactorModel::FixA0(void)

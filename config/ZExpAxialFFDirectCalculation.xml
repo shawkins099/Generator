@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<alg_conf>
+
+<!--
+Configuration sets for the z-expansion axial form factor model.
+
+Algorithm Configurable Parameters:
+.........................................................................................
+Name        Type    Optional   Comment                    Default
+.........................................................................................
+QEL-T0      double  Yes        z convergence parameter    GPL value: QEL-T0
+QEL-Z_A0    double  Yes        z expansion coefficient    GPL value: QEL-Z_A0
+QEL-Z_A1    double  Yes        z expansion coefficient    GPL value: QEL-Z_A1
+QEL-Z_A2    double  Yes        z expansion coefficient    GPL value: QEL-Z_A2
+QEL-Z_A3    double  Yes        z expansion coefficient    GPL value: QEL-Z_A3
+QEL-Z_A4    double  Yes        z expansion coefficient    GPL value: QEL-Z_A4
+QEL-Z_A5    double  Yes        z expansion coefficient    GPL value: QEL-Z_A5
+QEL-Z_A6    double  Yes        z expansion coefficient    GPL value: QEL-Z_A6
+QEL-Z_A7    double  Yes        z expansion coefficient    GPL value: QEL-Z_A7
+QEL-Z_A8    double  Yes        z expansion coefficient    GPL value: QEL-Z_A8
+QEL-Z_A9    double  Yes        z expansion coefficient    GPL value: QEL-Z_A9
+QEL-Z_A10   double  Yes        z expansion coefficient    GPL value: QEL-Z_A10
+QEL-Kmax    int     Yes        max summation index        GPL value: QEL-Kmax
+QEL-Tcut    double  Yes        ??                         GPL value 
+
+-->
+
+  <param_set name="Deuterium"> 
+
+    <param type="string"   name="CommonParam"> QuasiElastic  </param>
+    
+    <param type="int"    name="QEL-Kmax">    8      </param>
+
+    <param type="double" name="QEL-T0">     -0.28   </param>
+    <param type="double" name="QEL-Tcut">    0.1764 </param> <!-- 9*m_pi^2 -->
+
+    <param type="double" name="QEL-Z_A0">    -0.751104 </param>
+    <param type="double" name="QEL-Z_A1">    2.30   </param>
+    <param type="double" name="QEL-Z_A2">   -0.6    </param>
+    <param type="double" name="QEL-Z_A3">   -3.8    </param>
+    <param type="double" name="QEL-Z_A4">    2.3    </param>
+    <param type="double" name="QEL-Z_A5">    2.36182   </param>
+    <param type="double" name="QEL-Z_A6">   -1.15456    </param>
+    <param type="double" name="QEL-Z_A7">   -1.46752    </param>
+    <param type="double" name="QEL-Z_A8">    0.81136    </param>
+
+  </param_set>
+ 
+  <param_set name="LQCDPark">
+
+    <param type="string"   name="CommonParam"> QuasiElastic  </param>
+
+    <param type="int"    name="QEL-Kmax">    2      </param>
+
+    <param type="double" name="QEL-T0">     -0.5   </param>
+    <param type="double" name="QEL-Tcut">    0.164025 </param> <!-- 9*m_pi^2 -->
+
+    <param type="double" name="QEL-Z_A0">    0.725 </param>
+    <param type="double" name="QEL-Z_A1">    -1.63   </param>
+    <param type="double" name="QEL-Z_A2">   0.17    </param>
+
+
+
+    <!-- more factors can be added, if necessary according to Kmax --> 
+
+  </param_set>
+
+</alg_conf>
+

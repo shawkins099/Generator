@@ -82,5 +82,8 @@ RmaxMode                             string   Yes        Method to use to comput
     <param type="alg"  name="FormFactorsAlg"> genie::LwlynSmithFFCC/ZExp </param>
   </param_set>
 
+  <param_set name="ZExpDirectCalculation">
+    <param type="alg"  name="FormFactorsAlg"> genie::LwlynSmithFFCC/ZExpDirectCalculation </param>
+  </param_set>
 
 </alg_conf>
